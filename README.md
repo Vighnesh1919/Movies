@@ -1,6 +1,3 @@
-Here’s an updated version of your `README.md` with instructions on how to run the app using Vite:
-
-```markdown
 # Movies
 
 This is a React-based movie database application that fetches movie data from a public API and displays it on the web. The app uses Redux to manage the state of the application, handling loading, errors, and the movie data itself.
@@ -11,6 +8,19 @@ This is a React-based movie database application that fetches movie data from a 
 - Displays the movie data in a responsive grid layout.
 - Each movie entry shows the title, rating, and an image, with a link to view more details on IMDb.
 
+### How it works:
+1. The app sends a request to the API to fetch movie data.
+2. The data is stored in the Redux store once successfully fetched.
+3. The movies are displayed on the page in a responsive, visually appealing grid layout.
+4. The app handles loading and error states to provide a smooth user experience.
+
+The app is styled using Tailwind CSS, ensuring a modern, responsive design.
+
+### How to Run:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Vighnesh1919/Movies.git
 ### How it works:
 1. The app sends a request to the API to fetch movie data.
 2. The data is stored in the Redux store once successfully fetched.
